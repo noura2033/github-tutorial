@@ -47,7 +47,9 @@ git init
 git add
 ```
 ```
-git commit```
+git commit
+```
 
 ---
+
 ## Workflow & Commands

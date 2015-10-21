@@ -54,7 +54,8 @@ git commit
  * ```git status```
  
 * Add files to stage to get committed later
- * ```git add FILENAME```  
+ * ```git add FILENAME```   
+  * git add . to add all the files that haven't been added yet 
  
  _Hint_: Multiple files can be added by putting a space between the file names  
 

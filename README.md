@@ -22,7 +22,7 @@ user.email
 ]
 ```
 This tells Git the username and email associated with  
-your Git commits. Next step is to connect with SSH whenever making a repository. To use SSH , you need to get the SSH keys from GitHub. This is to push or pull from GitHub. 
+your Git commits. Next step is to connect with SSH whenever making a repository. To use SSH, you need to get the SSH keys from GitHub. This is to push or pull from GitHub. 
 
 
 
@@ -41,10 +41,7 @@ Steps:
 
 Whenever making a new repository in Git, you have to add a few commands:
 ```
-git init
-```
-```
-git add
+git init git add
 ```
 ```
 git commit
@@ -53,3 +50,22 @@ git commit
 ---
 
 ## Workflow & Commands
+* Check which files need to be saved and comitted 
+ * ```git status```
+ 
+* Add files to stage to get committed later
+ * ```git add FILENAME```  
+ 
+ _Hint_: Multiple files can be added by putting a space between the file names  
+
+* To commit a file  
+ * ```git commit -m 'message' ```  
+   * -m means that the next text will be your message
+   * your message should be explaining the changes made in the commit 
+   * Committing is taking a virtual snapshot and being able to view it later  
+   
+* To send you code and commits to GitHub  
+ * ```git push```  
+
+
+

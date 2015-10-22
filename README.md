@@ -102,6 +102,17 @@ all you have to do is ```rm -rf .git ```
 
 ---  
 
+##**Collaboration**  
+_Fork_ and _Cloning_  
+
+Forking someone else's repo  
+-You maintain a _remote_ copy of _their remote_ repo  
+-Then _clone_ your _remote_ to your _local_ 
+-You have permission to _push_ to your _remote_  
+
+Cloning someone else's repo
+-You maintain a _local copy_ of _their remote_ repo  
+-You **DON'T** have permission to _push_ to their _remote_ 
   
 
 

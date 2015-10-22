@@ -56,6 +56,7 @@ git commit
 * Add files to stage to get committed later
  * ```git add FILENAME```   
   *   ```git add .``` to add all the files that haven't been added yet 
+  *   when you add a file, you're getting ready to commit it so it can be sent it GitHub
  
  _Hint_: Multiple files can be added by putting a space between the file names  
 
@@ -65,7 +66,7 @@ git commit
    * your message should be explaining the changes made in the commit 
    * Committing is taking a virtual snapshot and being able to view it later  
    
-* To send you code and commits to GitHub  
+* To send your code and commits to GitHub  
  * ```git push```  
 
 

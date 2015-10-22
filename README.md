@@ -52,23 +52,25 @@ Now you're home
 
 
 ---
-## Repository Setup
+## Repository Setup  
 
-Steps:  
 
- 1. Make a new repo from the top right   
- 2. Select the account to create the repo 
- 3. Give your repo a name (Make it make sense!) 
- 4. Choose wether you want your repo to be publically viewable or private 
- 5. Edit your repo! You're set
+ ``` pwd ```  to see where you are  
+ Master shown which means you are using Git   
+ ```git add READMME.md```  
+ ```git commit -m "Message"```  
+ 
+ Go to [GitHub](github.com)  
+ 1. Top right go to *New Repository*  
+ 2. Add a name  
+ 3. Create the Repository  
+ 4. Click *SSH*  
+ 5. Copy the ```git push```  
+ 
+ From now on you can edit your work but remember to  
+- **Add** and **Commit**   
+- ```git push```  
 
-Whenever making a **new repository** in Git, you have to add a few commands:
-```
-git init git add
-```
-```
-git commit
-```
 
 ---
 
@@ -90,7 +92,16 @@ git commit
    * Committing is taking a virtual snapshot and being able to view it later  
    
 * To **send** your code and commits to GitHub  
-  * ```git push```    
+  * ```git push```      
+  
+---
+##**Error Handling**  
+If you ```git init``` in the wrong repository:  
+To remove a local/remote repository,    
+all you have to do is ```rm -rf .git ```   
+
+---  
+
   
 
 

@@ -14,7 +14,7 @@ vitrul snapshots. This means that when you edit a chunk of code, you
 ---
 ## Initial Setup
 **Initial Setup** is the the quick, one-time setup you do when first starting your github account. 
-```
+
 
 
 Go to [GitHub](github.com)  
@@ -39,7 +39,7 @@ Make a directory
 Now you're home  
 
 
-``` git init ``` 
+``` git init ```  
 ``` git config --global user.name 'First Name Last Name' ```    
 ``` git config --global user.name 'First Name Last Name' ```
 

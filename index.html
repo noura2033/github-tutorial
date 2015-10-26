@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="GitHub Tutorial : Lets Git It">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>GitHub Tutorial</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/noura2033/github-tutorial">View on GitHub</a>
+
+          <h1 id="project_title">GitHub Tutorial</h1>
+          <h2 id="project_tagline">Lets Git It</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/noura2033/github-tutorial/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/noura2033/github-tutorial/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Nour Abid</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>The difference between <strong>Git</strong> and <strong>GitHub</strong> is that Git is a version control of the code which takes<br>
+vitrul snapshots. This means that when you edit a chunk of code, you<br>
+  git commit it to save and push it to send to GitHub. This doesn't require GitHub though. Now GitHub on the other<br>
+  hand requires Git. GitHub store code in the cloud which means you can perceptibly track your changes.</p>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p><strong>Initial Setup</strong> is the the quick, one-time setup you do when first starting your github account. </p>
+
+<p>Go to <a href="github.com">GitHub</a>  </p>
+
+<ol>
+<li>Go to profile</li>
+<li>G to settings</li>
+<li>Go to SSH keys and click on it</li>
+<li>Give it a title</li>
+<li>Paste key</li>
+<li>Open IDE<br>
+</li>
+</ol>
+
+<p>Now start coding on your command line<br>
+<code>ssh -T git@github.com</code> , type 'yes'  </p>
+
+<p><code>git config</code>  </p>
+
+<p>Make a directory<br>
+<code>mkdir first-repo</code><br>
+<code>cd first-repo</code><br>
+<code>pwd</code>  </p>
+
+<p>Now you're home  </p>
+
+<p><code>git init</code><br>
+<code>git config --global user.name 'First Name Last Name'</code><br>
+<code>git config --global user.name 'First Name Last Name'</code></p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p><code>pwd</code>  to see where you are<br>
+ Master shown which means you are using Git<br>
+ <code>git add READMME.md</code><br>
+ <code>git commit -m "Message"</code>  </p>
+
+<p>Go to <a href="github.com">GitHub</a>  </p>
+
+<ol>
+<li>Top right go to <em>New Repository</em><br>
+</li>
+<li>Add a name<br>
+</li>
+<li>Create the Repository<br>
+</li>
+<li>Click <em>SSH</em><br>
+</li>
+<li>
+<p>Copy the <code>git push</code>  </p>
+
+<p>From now on you can edit your work but remember to  </p>
+
+<ul>
+<li>
+<strong>Add</strong> and <strong>Commit</strong><br>
+</li>
+<li>
+<code>git push</code><br>
+</li>
+</ul>
+</li>
+</ol>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<ul>
+<li>
+<p>Check which files need to be *<em>saved *</em>and *<em>comitted *</em></p>
+
+<ul>
+<li><code>git status</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Add files</strong> to stage to get committed later</p>
+
+<ul>
+<li>
+<code>git add FILENAME</code><br>
+</li>
+<li>  <code>git add .</code> to add all the files that haven't been added yet </li>
+<li>  when you add a file, you're getting ready to commit it so it can be sent it GitHub</li>
+</ul>
+
+<p><em>Hint</em>: Multiple files can be added by putting a space between the file names  </p>
+</li>
+<li>
+<p>To <strong>commit</strong> a file  </p>
+
+<ul>
+<li>
+<code>git commit -m 'message'</code><br>
+
+<ul>
+<li>-m means that the next text will be your message</li>
+</ul>
+</li>
+<li>your message should be explaining the changes made in the commit </li>
+<li>Committing is taking a virtual snapshot and being able to view it later<br>
+</li>
+</ul>
+</li>
+<li>
+<p>To <strong>send</strong> your code and commits to GitHub  </p>
+
+<ul>
+<li>
+<code>git push</code><br>
+</li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="error-handling" class="anchor" href="#error-handling" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Error Handling</strong>
+</h2>
+
+<p>If you <code>git init</code> in the wrong repository:<br>
+To remove a local/remote repository,<br>
+all you have to do is <code>rm -rf .git</code>   </p>
+
+<hr>
+
+<h2>
+<a id="collaboration" class="anchor" href="#collaboration" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Collaboration</strong>
+</h2>
+
+<p><em>Fork</em> and <em>Cloning</em>  </p>
+
+<p>Forking someone else's repo<br>
+-You maintain a <em>remote</em> copy of <em>their remote</em> repo<br>
+-Then <em>clone</em> your <em>remote</em> to your <em>local</em> 
+-You have permission to <em>push</em> to your <em>remote</em>  </p>
+
+<p>Cloning someone else's repo
+-You maintain a <em>local copy</em> of <em>their remote</em> repo<br>
+-You <strong>DON'T</strong> have permission to <em>push</em> to their <em>remote</em> </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">GitHub Tutorial maintained by <a href="https://github.com/noura2033">noura2033</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
